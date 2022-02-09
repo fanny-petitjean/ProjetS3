@@ -1,0 +1,96 @@
+main h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 2em;
+    margin: 10px 0;
+}
+
+.inputItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #2b344b;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.inputField, .inputItem {
+    height: 100%;
+    border: 1px solid rgba(89, 99, 104, 0.51);
+}
+
+.inputField {
+    flex: 1;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#inputMsg {
+    height: 100px;
+}
+
+#msg {
+    resize: none;
+}
+
+fieldset {
+    margin: 10px 30px;
+}
+
+#send {
+    align-self: center;
+}
+
+.centrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.readonly{
+    background-color: rgba(152, 152, 219, 0.44);
+}
+
+@media (max-width: 1020px) {
+    main {
+        width: 95%;
+    }
+
+    #msg {
+        width: 85%
+    }
+}
+
+@media (max-width: 1020px) {
+    main {
+        width: 95%;
+    }
+
+    #msg {
+        width: 85%
+    }
+}
+#myDIV{
+    display: none;
+}
+#listeVeto{
+    display: none;
+}
+
+.photoChien{
+    max-heigth:500px !important;
+    max-width: 500px !important;
+}

@@ -1,0 +1,22 @@
+button .btn {
+    border-color: #2b344b !important;
+    border: 1px solid !important;
+    background-color: yellow;
+
+    box-shadow: 3px 3px 12px #a8ccac !important;
+    -webkit-box-shadow: 3px 3px 12px #a8ccac !important;
+    -moz-box-shadow: 3px 3px 12px #a8ccac !important;
+}
+
+
+.description {
+    padding: 30px 10px 30px 10px;
+
+}
+
+.photoChien {
+    margin: 10px 10px,10px,10px;
+    max-heigth:500px !important;
+    max-width: 500px !important;
+
+}

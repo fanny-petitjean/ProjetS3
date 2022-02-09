@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+}
+header {
+	width: 100%;
+	max-height: 100vh;
+	min-height: 50px;
+	height: auto;
+	font-family: MonsteratSB, serif;
+	font-weight: 600;
+	z-index: 1000;
+}
+
+.pull-right {
+    float: right;
+    text-align: right;
+    display: flex;
+}
+
+#menu li {
+	display: inline-block;
+	background-color: #a8ccac;
+}
+
+#menu a {
+	padding: 10px 20px;
+	color: #2b344b;
+}
+
+#menu li:hover {
+	background-color: #b3bec3;
+}
+
+nav .btn-simple {
+    display: flex;
+    text-decoration: none;
+    font-family: arial;
+    margin: 0px;
+    font-size: 1em;
+    color: white;
+    background-color: #2b344b;
+    width: 10%;
+    align-items: center ;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+nav .btn-simple:hover {
+    transition-duration: 0.5s;
+    background-color: #0e1f2b;
+}
+
+
+.navbar{
+	display:block;
+}
+
+button.btn.left  {
+  border-color:  #2b344b !important ;
+  border :1px solid !important;
+  background-color: #dfcc9b;
+  box-shadow: 3px 3px 12px #2b344b !important;
+  -webkit-box-shadow: 3px 3px 12px #2b344b !important;
+  -moz-box-shadow: 3px 3px 12px #2b344b !important;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+		text-decoration: none;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.social-inner > img{
+    max-height: 50px ;
+    max-width: 50px ;
+}
+.containerHead{
+    display: flex;
+    justify-content: center;
+}
+
+.barre-menu{
+    display: flex;
+    width: 100%;
+    height: 3.5em;
+    align-items: stretch;
+    background-color: #2b344b;
+}
+nav.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+li.menu-déroulant{
+    width: 10%;
+    list-style-type: none;
+}
+
+a.menu-déroulant{
+    display: flex;
+    text-decoration: none;
+    font-family: arial;
+    margin: 0px;
+    font-size: 1em;
+    color: white;
+    background-color: #2b344b;
+    width: 100%;
+    height: 100%;
+    align-items: center ;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+a.menu-déroulant:hover{
+    transition-duration: 0.5s;
+    background-color: #0e1f2b;
+}
+
+ul.sous-menu{
+    display: none;
+}
+
+li.menu-déroulant:hover .sous-menu{
+    display: block;
+
+}
+nav{
+    z-index: 100;
+}
+
+.col-2:not(nav){
+    z-index: 1;
+}
+
+.sous-menu fieldset{
+   background-color: white;
+
+
+}
+
+
+li.drop-menu{
+    height: 100%;
+}
+a.btn-drop{
+    display: flex;
+    text-decoration: none;
+    font-family: arial;
+    margin: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 1em;
+    color: white;
+    background-color: #2b344b;
+    width: 100%;
+    height: 3em;
+    align-items: center ;
+    justify-content: center;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+
+a.btn-drop:hover{
+    transition-duration: 0.5s;
+    background-color: #0e1f2b;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-col-1{
+    padding: 3em;
+
+}
+
+.footer-col-2{
+    padding: 3em;
+}
+
+.footer-col-2 > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a.social-inner{
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 3%;
+}
+
+.menu-tri{
+    display: flex;
+    flex-direction: row;
+}
+
+ul.filtres{
+    display: flex;
+    flex-direction: row;
+}
+
+.barre-menu#filtres{
+    margin-bottom: 18%;
+}
